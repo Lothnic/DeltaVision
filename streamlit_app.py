@@ -13,7 +13,7 @@ st.markdown("Upload two images to detect changes between them.")
 uploaded1 = st.file_uploader("Upload first image", type=["png", "jpg", "tif", "tiff"])
 uploaded2 = st.file_uploader("Upload second image", type=["png", "jpg", "tif", "tiff"])
 
-threshold = st.slider("Change Detection Threshold", min_value=0, max_value=255, value=30)
+threshold = st.slider("Change Detection Threshold", min_value=0, max_value=255, value=100)
 
 if uploaded1 and uploaded2:
     # Save uploaded files to temp
