@@ -1,5 +1,5 @@
-opencv-python-headless==4.8.1.78
-numpy
+opencv-python-headless
+numpy==1.26.4
 matplotlib
 scikit-image
 streamlit
