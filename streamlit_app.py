@@ -6,7 +6,7 @@ from src.image_processing import align_images, load_image, resize_image
 from src.change_detection import compute_difference
 from src.visualization import create_heatmap
 
-st.title("DeltaVision: Change Detection Tool")
+st.title("DeltaVision: Visual Difference Engine")
 
 st.markdown("Upload two images to detect changes between them.")
 
