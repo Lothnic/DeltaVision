@@ -5,8 +5,8 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
-    "opencv-python-headless==4.8.1.78",
-    "numpy",
+    "opencv-python-headless",
+    "numpy==1.26.4",
     "matplotlib",
     "torch",
     "fastapi",
